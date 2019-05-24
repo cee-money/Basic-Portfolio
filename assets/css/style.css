@@ -22,9 +22,8 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #666666;
-    text-align: center;
-    padding-top: 50px;
-    border-top: 8px solid #4aaaa5
+    padding: 30px;
+    border-top: 8px solid #4aaaa5;
 }
 
 #namelogo {
@@ -41,6 +40,8 @@ footer {
 nav {
     float: right;
     padding: 40px;
+    word-spacing: 8px;
+    color: #777777;
 }
 
 h2 {
@@ -49,24 +50,17 @@ h2 {
     background-color: white;
 }
 
-h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: white;
-    background-color: #4aaaa5;
-    text-align: center;
-    padding: 20px;
-    width: 160px;
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 2; 
+    margin-left: 20px;
+    margin-right: 20px; 
 }
 
 a {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-}
-
-p {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    line-height: 2;  
 }
 
 .container {
@@ -76,67 +70,85 @@ p {
 }
 
 #body {
-    margin: 0 auto;
-    margin-top: 40px;
-    padding: 20px;
+    position: relative;
+    margin-top: 75px;
+    margin-bottom: 150px;
+    padding: 30px;
+    border: 1px solid #cccccc;
 }
 
-.headshot {
+#headshot {
     height: 200px;
     width: 200px;
     float: left;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
+.gallery{
+    height: 900px;
+}
 .galimg {
+    position: relative;
     height: 250px;
     width: 250px; 
     margin-top: 20px;
-    float: left;
 }
 
 .galtitle {
+    position: relative;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: white;
     background-color: #4aaaa5;
     text-align: center;
     padding: 20px;
     width: 210px;
+    bottom: 90px;
 }
 
-/* .gal2 {
-    height: 200px;
-    width: 200px; 
-    margin-top: 20px;
-    float: left;
+#gal2 {
+    position: relative;
+    left: 325px;
+    top: -372px;
 }
 
-.gal3 {
-    height: 200px;
-    width: 200px;
-    margin-top: 20px; 
-    float: left;
+#gal2-title {
+    position: relative;
+    left: 325px;
+    top: -462px;
 }
 
-.gal4 {
-    height: 200px;
-    width: 200px; 
-    margin-top: 20px;
-    float: left;
+#gal3 {
+   position: relative;
+   top: -450px;
 }
 
-.gal5 {
-    height: 200px;
-    width: 200px; 
-    margin-top: 20px;
-    float: left;
-} */
+#gal3-title{
+    position: relative;
+    top: -540px;
+}
 
+#gal4 {
+    position: relative;
+    left: 325px;
+    top: -823px;
+}
 
+#gal4-title {
+    position: relative;
+    left: 325px;
+    bottom: 913px;
+}
 
+#gal5 {
+    position: relative;
+    bottom: 890px;
+}
 
-
-
+#gal5-title {
+    position: relative;
+    bottom: 980px;
+}
 
 .formtext {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -145,8 +157,7 @@ p {
     padding-top: 20px;
 }
 
-#name,
-#email {
+#name, #email, #message {
     width: 100%;
     padding: 12px 20px;
     margin: 0px 0;
@@ -155,13 +166,10 @@ p {
     font-size: 13px;
   }
 
-  #message {
-    width: 100%;
-    padding: 12px 20px;
-    margin:0px 0;
-    box-sizing: border-box;
+#message {
     border-color: lightgrey;
 }
+   
 
 #submit {
     background-color: #4aaaa5;
